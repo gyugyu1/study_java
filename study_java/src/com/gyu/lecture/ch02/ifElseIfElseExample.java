@@ -26,10 +26,11 @@ public class ifElseIfElseExample {
 				grade = "D+";
 			else grade= "D";
 		
-		}else {
+		}else 
 			grade="F";
-		}
- System.out.println(grade);
+		
+ System.out.println("학점은 :" + grade);
 	}
+	
 
 }
